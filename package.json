@@ -1,0 +1,21 @@
+{
+  "name": "sweep-token-accounts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dotenv ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv-cli": "^7.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.1",
+    "@solana/web3.js": "^1.91.1"
+  }
+}
