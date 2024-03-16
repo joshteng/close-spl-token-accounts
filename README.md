@@ -6,3 +6,7 @@ Set your environment variables with your private key and RPC. Copy `.env.example
 pnpm i
 pnpm run dev
 ```
+
+## Why?
+- 1 tx
+- fast and easy
