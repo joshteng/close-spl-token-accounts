@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "dotenv ts-node src/index.ts",
+    "keypair": "dotenv ts-node src/index.ts",
+    "ledger": "dotenv ts-node src/ledger.ts",
     "build": "tsc"
   },
   "author": "",
@@ -16,6 +17,9 @@
   },
   "dependencies": {
     "@solana/spl-token": "^0.4.1",
-    "@solana/web3.js": "^1.91.1"
+    "@solana/web3.js": "^1.91.1",
+    "@tensor-oss/ledger-solana-sdk": "^0.1.1",
+    "bs58": "^5.0.0",
+    "@ledgerhq/hw-transport-node-hid": "^6.28.1"
   }
 }

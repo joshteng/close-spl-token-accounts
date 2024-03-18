@@ -4,7 +4,14 @@ Set your environment variables with your private key and RPC. Copy `.env.example
 
 ```sh
 pnpm i
-pnpm run dev
+pnpm run keypair
+```
+
+or sign via ledger
+
+```sh
+pnpm i
+pnpm run ledger # connect and unlock your ledger first
 ```
 
 ## Why?
